@@ -1,0 +1,12 @@
+<expr>  ::=     <signo><uno-nueve>.<cero-nueve>E<signo><cero-nueve>*KG(x[:,0], <uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<nulo>)|
+                <signo><uno-nueve>.<cero-nueve>E<signo><cero-nueve>*KG(x[:,0], <uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<nulo>)<expr>|
+                <signo><uno-nueve>.<cero-nueve>E<signo><cero-nueve>*KP(x[:,0], <uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<grado>)|
+                <signo><uno-nueve>.<cero-nueve>E<signo><cero-nueve>*KP(x[:,0], <uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<grado>)<expr>|
+                <signo><uno-nueve>.<cero-nueve>E<signo><cero-nueve>*KS(x[:,0], <uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<nulo>)|
+                <signo><uno-nueve>.<cero-nueve>E<signo><cero-nueve>*KS(x[:,0], <uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<uno-nueve>.<cero-nueve>E<signo><cero-nueve>,<nulo>)<expr>
+
+<signo> ::=     + | -
+<nulo>  ::=     None | None
+<grado> ::=     0 | 1 | 2 | 3 | 4
+<uno-nueve> ::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<cero-nueve>::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9

@@ -115,6 +115,42 @@ def variable_onepoint(p_0, p_1):
     return [ind_0, ind_1]
 
 
+def fixed_onepoint_custom(p_0, p_1):
+    """
+    Given two individuals, create two children using one-point crossover and
+    return them. The same point is selected on both genomes for crossover
+    to occur. Crossover points are selected within the used portion of the
+    genome by default (i.e. crossover does not occur in the tail of the
+    individual).
+
+    :param p_0: Parent 0
+    :param p_1: Parent 1
+    :return: A list of crossed-over individuals.
+    """
+
+    # Get the chromosomes.
+    genome_0, genome_1 = p_0.genome, p_1.genome
+
+    # Uniformly generate crossover points.
+    max_p_0, max_p_1 = get_max_genome_index(p_0, p_1)
+
+    # Select the same point on both genomes for crossover to occur.
+    pt = randint(1, min(max_p_0, max_p_1) // 15)*15
+
+    # Make new chromosomes by crossover: these slices perform copies.
+    if random() < params['CROSSOVER_PROBABILITY']:
+        c_0 = genome_0[:pt] + genome_1[pt:]
+        c_1 = genome_1[:pt] + genome_0[pt:]
+    else:
+        c_0, c_1 = genome_0[:], genome_1[:]
+
+    # Put the new chromosomes into new individuals.
+    ind_0 = individual.Individual(c_0, None)
+    ind_1 = individual.Individual(c_1, None)
+
+    return [ind_0, ind_1]
+
+
 def fixed_onepoint(p_0, p_1):
     """
     Given two individuals, create two children using one-point crossover and
@@ -467,6 +503,7 @@ def LTGE_crossover(p_0, p_1):
 # Set attributes for all operators to define linear or subtree representations.
 variable_onepoint.representation = "linear"
 fixed_onepoint.representation = "linear"
+fixed_onepoint_custom.representation = "linear"
 variable_twopoint.representation = "linear"
 fixed_twopoint.representation = "linear"
 subtree.representation = "subtree"

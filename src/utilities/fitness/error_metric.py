@@ -4,6 +4,23 @@ import numpy as np
 from sklearn.metrics import f1_score as sklearn_f1_score
 
 
+def mae_custom(y, yhat):
+    """
+    Calculate mean absolute error between inputs.
+
+    :param y: The expected input (i.e. from dataset).
+    :param yhat: The given input (i.e. from phenotype).
+    :return: The mean absolute error.
+    """
+    ae = np.abs(y - yhat)
+    ae[ae >= 0.1] = 10 * ae[ae >= 0.1]
+    return np.mean(ae)
+
+
+# Set maximise attribute for mae error metric.
+mae_custom.maximise = False
+
+
 def mae(y, yhat):
     """
     Calculate mean absolute error between inputs.

@@ -9,6 +9,15 @@ from utilities.fitness.optimize_constants import optimize_constants
 
 from fitness.base_ff_classes.base_ff import base_ff
 
+def KG(x, gamma, c, nulo):
+    return np.exp(-gamma * np.power(c - x, 2))
+
+def KP(x, alpha, beta, d):
+    return np.power(alpha * x + beta, d)
+
+def KS(x, delta, theta, nulo):
+    return np.tanh(delta * x + theta)
+
 
 class supervised_learning(base_ff):
     """
