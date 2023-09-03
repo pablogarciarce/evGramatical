@@ -1,0 +1,13 @@
+Generation:
+1000
+
+Phenotype:
++2.3E-6*KS(x[:,0], 9.4E-2,4.8E-5,None)+9.6E-7*KS(x[:,0], 2.5E-3,2.6E-8,None)-9.8E-7*KS(x[:,0], 7.0E-5,4.3E-3,None)+9.9E+4*KG(x[:,0], 9.6E-4,7.4E+2,None)-3.2E-2*KS(x[:,0], 5.5E-5,9.6E-0,None)
+
+Genotype:
+[293, 389, 540, 815, 936, 268, 305, 865, 865, 727, 718, 586, 829, 933, 623, 527, 982, 605, 623, 461, 337, 142, 462, 706, 313, 341, 943, 220, 569, 829, 916, 385, 152, 674, 96, 652, 90, 17, 588, 964, 552, 146, 215, 83, 139, 756, 834, 474, 534, 940, 272, 363, 943, 164, 8, 552, 344, 801, 820, 985, 855, 728, 105, 653, 935, 822, 528, 45, 146, 216, 325, 847, 173, 76, 140, 596, 601, 902, 245, 36, 15, 334, 546, 390, 232, 30, 390, 517, 58, 517, 418, 154, 445, 458, 631, 940, 215, 374, 747, 82, 575, 837, 885, 109, 140, 979, 206, 432, 834, 802, 659, 304]
+Tree:
+(<expr> (<signo> +) (<uno-nueve> 2) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 6) *KS(x[:,0],  (<uno-nueve> 9) . (<cero-nueve> 4) E (<signo> -) (<cero-nueve> 2) , (<uno-nueve> 4) . (<cero-nueve> 8) E (<signo> -) (<cero-nueve> 5) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 9) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 7) *KS(x[:,0],  (<uno-nueve> 2) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 3) , (<uno-nueve> 2) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 8) , (<nulo> None) ) (<expr> (<signo> -) (<uno-nueve> 9) . (<cero-nueve> 8) E (<signo> -) (<cero-nueve> 7) *KS(x[:,0],  (<uno-nueve> 7) . (<cero-nueve> 0) E (<signo> -) (<cero-nueve> 5) , (<uno-nueve> 4) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 3) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 9) . (<cero-nueve> 9) E (<signo> +) (<cero-nueve> 4) *KG(x[:,0],  (<uno-nueve> 9) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 4) , (<uno-nueve> 7) . (<cero-nueve> 4) E (<signo> +) (<cero-nueve> 2) , (<nulo> None) ) (<expr> (<signo> -) (<uno-nueve> 3) . (<cero-nueve> 2) E (<signo> -) (<cero-nueve> 2) *KS(x[:,0],  (<uno-nueve> 5) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 5) , (<uno-nueve> 9) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 0) , (<nulo> None) ))))))
+
+Fitness:
+2.3712602178924627

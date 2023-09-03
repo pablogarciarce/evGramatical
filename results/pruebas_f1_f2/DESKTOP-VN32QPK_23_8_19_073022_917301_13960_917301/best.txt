@@ -1,0 +1,13 @@
+Generation:
+1000
+
+Phenotype:
+-7.5E-2*KS(x[:,0], 2.9E+9,4.8E+9,None)+1.7E-0*KS(x[:,0], 6.5E-2,5.1E-4,None)-3.2E-1*KS(x[:,0], 6.6E+4,2.1E-8,None)+2.1E-4*KP(x[:,0], 1.0E+4,3.3E-6,1)+8.1E-7*KS(x[:,0], 9.6E-0,5.3E+1,None)+3.5E-9*KP(x[:,0], 9.9E+3,8.5E-1,0)
+
+Genotype:
+[83, 318, 105, 537, 902, 257, 81, 235, 429, 853, 829, 764, 608, 11, 447, 219, 865, 876, 38, 464, 678, 965, 114, 605, 915, 839, 569, 892, 656, 822, 900, 244, 194, 152, 664, 153, 971, 437, 371, 327, 377, 437, 307, 401, 340, 604, 312, 406, 796, 201, 406, 581, 115, 896, 723, 291, 270, 696, 404, 919, 820, 545, 484, 488, 243, 112, 963, 584, 793, 852, 6, 617, 997, 781, 37, 971, 459, 39, 897, 220, 395, 286, 188, 828, 116, 464, 420, 235, 581, 373, 417, 107, 232, 751, 697, 847, 523, 587, 168, 429, 793, 27, 401, 516, 950, 866, 525, 369, 210, 620, 941, 299, 12, 447, 545, 92, 18, 195, 662, 52, 721, 815, 484, 328, 734, 998, 621, 147, 116, 808, 809, 828, 704, 321, 382]
+Tree:
+(<expr> (<signo> -) (<uno-nueve> 7) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 2) *KS(x[:,0],  (<uno-nueve> 2) . (<cero-nueve> 9) E (<signo> +) (<cero-nueve> 9) , (<uno-nueve> 4) . (<cero-nueve> 8) E (<signo> +) (<cero-nueve> 9) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 1) . (<cero-nueve> 7) E (<signo> -) (<cero-nueve> 0) *KS(x[:,0],  (<uno-nueve> 6) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 2) , (<uno-nueve> 5) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 4) , (<nulo> None) ) (<expr> (<signo> -) (<uno-nueve> 3) . (<cero-nueve> 2) E (<signo> -) (<cero-nueve> 1) *KS(x[:,0],  (<uno-nueve> 6) . (<cero-nueve> 6) E (<signo> +) (<cero-nueve> 4) , (<uno-nueve> 2) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 8) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 2) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 4) *KP(x[:,0],  (<uno-nueve> 1) . (<cero-nueve> 0) E (<signo> +) (<cero-nueve> 4) , (<uno-nueve> 3) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 6) , (<grado> 1) ) (<expr> (<signo> +) (<uno-nueve> 8) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 7) *KS(x[:,0],  (<uno-nueve> 9) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 0) , (<uno-nueve> 5) . (<cero-nueve> 3) E (<signo> +) (<cero-nueve> 1) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 3) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 9) *KP(x[:,0],  (<uno-nueve> 9) . (<cero-nueve> 9) E (<signo> +) (<cero-nueve> 3) , (<uno-nueve> 8) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 1) , (<grado> 0) )))))))
+
+Fitness:
+49.406031258835554

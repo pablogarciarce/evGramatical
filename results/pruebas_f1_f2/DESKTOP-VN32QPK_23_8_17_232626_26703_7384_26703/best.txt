@@ -1,0 +1,13 @@
+Generation:
+1000
+
+Phenotype:
++4.2E-2*KG(x[:,0], 3.7E-5,5.3E+2,None)+4.6E-0*KS(x[:,0], 5.4E+7,2.3E-1,None)+5.1E-7*KP(x[:,0], 4.1E-0,9.3E-0,1)-6.8E-8*KS(x[:,0], 3.8E-9,1.6E-5,None)-7.9E-6*KS(x[:,0], 4.0E+2,3.8E-0,None)
+
+Genotype:
+[661, 624, 435, 866, 912, 814, 977, 854, 836, 52, 387, 737, 5, 682, 981, 266, 336, 243, 120, 63, 401, 145, 298, 656, 852, 588, 459, 511, 302, 573, 730, 579, 296, 51, 0, 786, 713, 967, 130, 431, 42, 940, 670, 628, 616, 207, 316, 378, 292, 195, 810, 731, 549, 471, 682, 407, 429, 618, 417, 960, 650, 719, 968, 676, 718, 436, 379, 685, 432, 435, 477, 778, 515, 776, 495, 521, 370, 413, 288, 824, 846, 690, 70, 21, 774, 241, 640, 101, 88, 174, 126, 157, 39, 611, 995, 402, 185, 51, 743, 161, 694, 91, 400, 831, 963, 402, 175, 633, 292, 899, 341, 388]
+Tree:
+(<expr> (<signo> +) (<uno-nueve> 4) . (<cero-nueve> 2) E (<signo> -) (<cero-nueve> 2) *KG(x[:,0],  (<uno-nueve> 3) . (<cero-nueve> 7) E (<signo> -) (<cero-nueve> 5) , (<uno-nueve> 5) . (<cero-nueve> 3) E (<signo> +) (<cero-nueve> 2) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 4) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 0) *KS(x[:,0],  (<uno-nueve> 5) . (<cero-nueve> 4) E (<signo> +) (<cero-nueve> 7) , (<uno-nueve> 2) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 1) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 5) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 7) *KP(x[:,0],  (<uno-nueve> 4) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 0) , (<uno-nueve> 9) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 0) , (<grado> 1) ) (<expr> (<signo> -) (<uno-nueve> 6) . (<cero-nueve> 8) E (<signo> -) (<cero-nueve> 8) *KS(x[:,0],  (<uno-nueve> 3) . (<cero-nueve> 8) E (<signo> -) (<cero-nueve> 9) , (<uno-nueve> 1) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 5) , (<nulo> None) ) (<expr> (<signo> -) (<uno-nueve> 7) . (<cero-nueve> 9) E (<signo> -) (<cero-nueve> 6) *KS(x[:,0],  (<uno-nueve> 4) . (<cero-nueve> 0) E (<signo> +) (<cero-nueve> 2) , (<uno-nueve> 3) . (<cero-nueve> 8) E (<signo> -) (<cero-nueve> 0) , (<nulo> None) ))))))
+
+Fitness:
+49.58110463553896

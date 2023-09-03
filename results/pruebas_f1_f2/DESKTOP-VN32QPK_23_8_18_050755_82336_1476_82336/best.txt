@@ -1,0 +1,13 @@
+Generation:
+1000
+
+Phenotype:
++1.1E+1*KS(x[:,0], 8.6E+3,4.3E-1,None)
+
+Genotype:
+[514, 524, 713, 916, 863, 990, 431, 687, 21, 642, 503, 971, 166, 42, 990, 745, 688, 133, 700, 188, 590, 359]
+Tree:
+(<expr> (<signo> +) (<uno-nueve> 1) . (<cero-nueve> 1) E (<signo> +) (<cero-nueve> 1) *KS(x[:,0],  (<uno-nueve> 8) . (<cero-nueve> 6) E (<signo> +) (<cero-nueve> 3) , (<uno-nueve> 4) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 1) , (<nulo> None) ))
+
+Fitness:
+47.151689655742274

@@ -1,0 +1,13 @@
+Generation:
+1000
+
+Phenotype:
++6.4E-9*KS(x[:,0], 7.6E-6,8.3E+3,None)+5.0E-9*KS(x[:,0], 6.6E-9,4.0E+4,None)+1.5E+1*KG(x[:,0], 6.1E-9,1.1E+5,None)+5.1E-3*KP(x[:,0], 8.5E-7,3.3E-6,1)+8.3E-7*KP(x[:,0], 9.9E-0,6.5E+6,0)
+
+Genotype:
+[311, 912, 486, 824, 678, 97, 204, 413, 596, 303, 41, 312, 125, 470, 424, 599, 219, 991, 2, 790, 3, 419, 386, 180, 250, 943, 463, 980, 320, 781, 446, 411, 501, 910, 117, 930, 455, 175, 261, 823, 842, 999, 759, 302, 236, 956, 972, 187, 463, 449, 271, 290, 189, 485, 370, 449, 196, 479, 573, 11, 115, 309, 251, 573, 868, 727, 675, 464, 62, 116, 950, 242, 117, 383, 124, 770, 565, 31, 931, 886, 666, 430, 707, 639, 734, 851, 802, 525, 141, 97, 638, 887, 264, 248, 556, 114, 906, 348, 613, 877, 94, 172, 57, 824, 859, 982, 969, 673, 918, 127, 759, 401]
+Tree:
+(<expr> (<signo> +) (<uno-nueve> 6) . (<cero-nueve> 4) E (<signo> -) (<cero-nueve> 9) *KS(x[:,0],  (<uno-nueve> 7) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 6) , (<uno-nueve> 8) . (<cero-nueve> 3) E (<signo> +) (<cero-nueve> 3) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 5) . (<cero-nueve> 0) E (<signo> -) (<cero-nueve> 9) *KS(x[:,0],  (<uno-nueve> 6) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 9) , (<uno-nueve> 4) . (<cero-nueve> 0) E (<signo> +) (<cero-nueve> 4) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 1) . (<cero-nueve> 5) E (<signo> +) (<cero-nueve> 1) *KG(x[:,0],  (<uno-nueve> 6) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 9) , (<uno-nueve> 1) . (<cero-nueve> 1) E (<signo> +) (<cero-nueve> 5) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 5) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 3) *KP(x[:,0],  (<uno-nueve> 8) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 7) , (<uno-nueve> 3) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 6) , (<grado> 1) ) (<expr> (<signo> +) (<uno-nueve> 8) . (<cero-nueve> 3) E (<signo> -) (<cero-nueve> 7) *KP(x[:,0],  (<uno-nueve> 9) . (<cero-nueve> 9) E (<signo> -) (<cero-nueve> 0) , (<uno-nueve> 6) . (<cero-nueve> 5) E (<signo> +) (<cero-nueve> 6) , (<grado> 0) ))))))
+
+Fitness:
+2.4724297019186725

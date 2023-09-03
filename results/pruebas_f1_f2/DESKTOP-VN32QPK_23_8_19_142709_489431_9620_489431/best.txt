@@ -1,0 +1,13 @@
+Generation:
+1000
+
+Phenotype:
+-8.7E-6*KS(x[:,0], 1.1E-0,6.4E+8,None)+3.9E-4*KP(x[:,0], 7.2E-9,2.1E+0,2)-8.4E-7*KS(x[:,0], 4.9E-5,7.6E-7,None)-9.8E-5*KP(x[:,0], 7.4E+8,3.6E+9,0)+8.0E-3*KS(x[:,0], 7.1E+6,7.5E-1,None)
+
+Genotype:
+[443, 684, 300, 882, 610, 811, 792, 578, 201, 102, 676, 811, 21, 7, 327, 172, 540, 371, 219, 499, 702, 641, 635, 726, 91, 671, 459, 54, 214, 47, 420, 927, 99, 541, 756, 227, 754, 775, 854, 542, 939, 157, 753, 417, 125, 55, 919, 335, 70, 375, 997, 401, 170, 221, 226, 204, 864, 508, 589, 744, 863, 710, 86, 368, 906, 186, 815, 182, 367, 880, 203, 856, 681, 45, 4, 423, 374, 90, 902, 170, 587, 917, 480, 662, 806, 332, 600, 130, 518, 961, 505, 658, 775, 869, 316, 229, 504, 775, 623, 967, 237, 506, 249, 207, 6, 165, 58, 886, 142, 653, 87, 891]
+Tree:
+(<expr> (<signo> -) (<uno-nueve> 8) . (<cero-nueve> 7) E (<signo> -) (<cero-nueve> 6) *KS(x[:,0],  (<uno-nueve> 1) . (<cero-nueve> 1) E (<signo> -) (<cero-nueve> 0) , (<uno-nueve> 6) . (<cero-nueve> 4) E (<signo> +) (<cero-nueve> 8) , (<nulo> None) ) (<expr> (<signo> +) (<uno-nueve> 3) . (<cero-nueve> 9) E (<signo> -) (<cero-nueve> 4) *KP(x[:,0],  (<uno-nueve> 7) . (<cero-nueve> 2) E (<signo> -) (<cero-nueve> 9) , (<uno-nueve> 2) . (<cero-nueve> 1) E (<signo> +) (<cero-nueve> 0) , (<grado> 2) ) (<expr> (<signo> -) (<uno-nueve> 8) . (<cero-nueve> 4) E (<signo> -) (<cero-nueve> 7) *KS(x[:,0],  (<uno-nueve> 4) . (<cero-nueve> 9) E (<signo> -) (<cero-nueve> 5) , (<uno-nueve> 7) . (<cero-nueve> 6) E (<signo> -) (<cero-nueve> 7) , (<nulo> None) ) (<expr> (<signo> -) (<uno-nueve> 9) . (<cero-nueve> 8) E (<signo> -) (<cero-nueve> 5) *KP(x[:,0],  (<uno-nueve> 7) . (<cero-nueve> 4) E (<signo> +) (<cero-nueve> 8) , (<uno-nueve> 3) . (<cero-nueve> 6) E (<signo> +) (<cero-nueve> 9) , (<grado> 0) ) (<expr> (<signo> +) (<uno-nueve> 8) . (<cero-nueve> 0) E (<signo> -) (<cero-nueve> 3) *KS(x[:,0],  (<uno-nueve> 7) . (<cero-nueve> 1) E (<signo> +) (<cero-nueve> 6) , (<uno-nueve> 7) . (<cero-nueve> 5) E (<signo> -) (<cero-nueve> 1) , (<nulo> None) ))))))
+
+Fitness:
+2.466727591736925
