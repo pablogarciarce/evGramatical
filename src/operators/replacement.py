@@ -46,6 +46,33 @@ def generational(new_pop, old_pop):
     return new_pop[:params['POPULATION_SIZE']]
 
 
+def custom(new_pop, old_pop):
+    """
+    Replaces the old population with the new population. The ELITE_SIZE best
+    individuals from the previous population are appended to new pop regardless
+    of whether or not they are better than the worst individuals in new pop.
+
+    :param new_pop: The new population (e.g. after selection, variation, &
+    evaluation).
+    :param old_pop: The previous generation population, from which elites
+    are taken.
+    :return: The 'POPULATION_SIZE' new population with elites.
+    """
+
+    # Sort both populations.
+    old_pop.sort(reverse=True)
+    new_pop.sort(reverse=True)
+
+    # Append the best ELITE_SIZE individuals from the old population to the
+    # new population.
+    for ind in old_pop[:params['POPULATION_SIZE']//10]:
+        new_pop.insert(0, ind)
+
+    # Return the top POPULATION_SIZE individuals of the new pop, including
+    # elites.
+    return new_pop[:params['POPULATION_SIZE']]
+
+
 def steady_state(individuals):
     """
     Runs a single generation of the evolutionary algorithm process,

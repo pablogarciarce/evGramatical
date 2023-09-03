@@ -1,7 +1,7 @@
 from os import path
 
 import numpy as np
-from algorithm.parameters import params
+from src.algorithm.parameters import params
 
 
 def get_Xy_train_test_separate(train_filename, test_filename, skip_header=0):

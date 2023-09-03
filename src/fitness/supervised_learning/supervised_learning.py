@@ -2,12 +2,12 @@ import numpy as np
 
 np.seterr(all="raise")
 
-from algorithm.parameters import params
-from utilities.fitness.get_data import get_data
-from utilities.fitness.math_functions import *
-from utilities.fitness.optimize_constants import optimize_constants
+from src.algorithm.parameters import params
+from src.utilities.fitness.get_data import get_data
+from src.utilities.fitness.math_functions import *
+from src.utilities.fitness.optimize_constants import optimize_constants
 
-from fitness.base_ff_classes.base_ff import base_ff
+from src.fitness.base_ff_classes.base_ff import base_ff
 
 def KG(x, gamma, c, nulo):
     return np.exp(-gamma * np.power(c - x, 2))

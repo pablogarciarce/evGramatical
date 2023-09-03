@@ -1,6 +1,6 @@
 CACHE:                  True
 CROSSOVER:              fixed_onepoint_custom
-DATASET_TRAIN:          custom/f2_train.txt
+DATASET_TRAIN:          custom/f4_train.txt
 DATASET_TEST:           None
 DEBUG:                  False
 ERROR_METRIC:           mae_custom
@@ -9,16 +9,17 @@ INITIALISATION:         PI_grow
 INVALID_SELECTION:      False
 MAX_TREE_DEPTH:         0
 MUTATION:               int_flip_per_codon
-FITNESS_FUNCTION:       supervised_learning.regression
-REPLACEMENT:            generational
-SELECTION:              tournament
+FITNESS_FUNCTION:       supervised_learning.regression, custom_multiobjective
+REPLACEMENT:            nsga2_replacement
+SELECTION:              nsga2_selection
 VERBOSE:                False
 SAVE_PLOTS:             True
+STEP:                   step
 GENERATIONS:            1000
 POPULATION_SIZE:        500
 CODON_SIZE:             1000
-CROSSOVER_PROBABILITY:  0.75
-MUTATION_PROBABILITY:   0.05
+CROSSOVER_PROBABILITY:  0.9
+MUTATION_PROBABILITY:   0.1
 MAX_GENOME_LENGTH:      500
-MAX_WRAPS:              2
-TOURNAMENT_SIZE:        2
+MAX_WRAPS:              1
+TOURNAMENT_SIZE:        5

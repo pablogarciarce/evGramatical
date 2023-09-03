@@ -1,8 +1,8 @@
 import re
 
 import scipy
-from algorithm.parameters import params
-from utilities.fitness.math_functions import *
+from src.algorithm.parameters import params
+from src.utilities.fitness.math_functions import *
 
 
 def optimize_constants(x, y, ind):
